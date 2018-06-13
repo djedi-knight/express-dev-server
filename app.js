@@ -13,8 +13,17 @@ const app = express()
 
 // Setup server API
 app.get('/', function (req, res) {
-    console.log('Server Request', req)
-    res.send('Hello World!')
+    console.log('Server GET Request')
+    console.log('route', req.route)
+    console.log('headers', req.headers)
+    res.send('Server GET Request SUCCESS')
+})
+
+app.post('/', function (req, res) {
+    console.log('Server POST Request')
+    console.log('route', req.route)
+    console.log('headers', req.headers)
+    res.send('Server POST Request SUCCESS')
 })
 
 app.listen(5000, function () {
