@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/djedi-knight/express-dev-server/issues"
   },
-  "homepage": "https://github.com/djedi-knight/express-dev-server#readme"
+  "homepage": "https://github.com/djedi-knight/express-dev-server#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
