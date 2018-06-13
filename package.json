@@ -1,0 +1,20 @@
+{
+  "name": "express-dev-server",
+  "version": "1.0.0",
+  "description": "A simple Express server for development/ testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djedi-knight/express-dev-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djedi-knight/express-dev-server/issues"
+  },
+  "homepage": "https://github.com/djedi-knight/express-dev-server#readme"
+}
